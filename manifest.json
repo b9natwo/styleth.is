@@ -1,0 +1,23 @@
+{
+  "manifest_version": 1,
+  "name": "styleTH.IS",
+  "version": "1.0.0",
+  "description": "Profile beautifier for leaked.cx. Customize with unique styles and banners.",
+  "permissions": ["activeTab", "storage", "scripting"],
+  "host_permissions": ["*://leaked.cx/*"],
+  "icons": {
+    "16": "src/icon.png",
+    "48": "src/icon.png",
+    "128": "src/icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://leaked.cx/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

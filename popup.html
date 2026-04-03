@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>styleth.is</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  
+  <header>
+    <h1>styleth.is</h1>
+    <p>leaked beautifier</p>
+  </header>
+
+  <div class="master-row">
+    <span class="master-label">Active</span>
+    <label class="switch">
+      <input type="checkbox" id="enabled" checked>
+      <span class="switch-track"></span>
+    </label>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Username Style</div>
+    <select id="styleSelect">
+      <option value="">None (Reset)</option>
+      <option value="username--style2">Style 2 — Basic Clean</option>
+      <option value="username--style3">Style 3 — Purple Bold Shadow</option>
+      <option value="username--style4">Style 4 — Blue Shadow</option>
+      <option value="username--style5">Style 5 — White Strikethrough</option>
+      <option value="username--style6">Style 6 — Magenta Bold Shadow</option>
+      <option value="username--style7">God Style — Gold Sparkle White GIF</option>
+      <option value="username--style8">Style 8 — Pink Shadow</option>
+      <option value="username--style9">Style 9 — Teal Shadow</option>
+      <option value="username--style10" selected>Champion Style — Champion Light Blue</option>
+      <option value="username--style11">Style 11 — Pink Sparkle Red GIF</option>
+      <option value="username--style12">Donator Style — Orange Sparkle</option>
+      <option value="username--style13">Style 13 — Light Pink</option>
+      <option value="username--style14">Style 14 — Green</option>
+      <option value="username--style15">Style 15 — Silver</option>
+      <option value="username--style17">Style 17 — Dark Red</option>
+      <option value="username--style18">Style 18 — Red Sparkle Dark GIF</option>
+      <option value="username--style21">Style 21 — Light Yellow</option>
+      <option value="username--style24">Style 24 — Brown</option>
+      <option value="username--style25">Style 25 — Orange</option>
+      <option value="username--style26">MOTY Style — Yellow Sparkle White GIF</option>
+      <option value="username--style30">Style 30 — Magenta Sparkle Red GIF</option>
+      <option value="username--style36">Style 36 — Blue with Icon/Emoji</option>
+      <option value="username--invisible">Invisible (Hidden)</option>
+      <option value="username--banned">Banned (Strikethrough Black)</option>
+      <option value="username--deactivated">Deactivated (Gray Strikethrough)</option>
+    </select>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Banner Tags</div>
+    <div class="tags-grid" id="bannerCheckboxes">
+    </div>
+  </div>
+
+  <div class="section">
+      <div class="section-title">Profile Banner</div>
+      <div class="toggle-row">
+        <span class="toggle-row-label">Custom background image/GIF</span>
+        <label class="switch">
+          <input type="checkbox" id="customBannerEnabled">
+          <span class="switch-track"></span>
+        </label>
+      </div>
+      <input type="text" id="customBannerUrl" placeholder="https://example.com/banner.gif" style="width: 276px;">
+    </div>
+
+    <div class="footer">
+      <p id="status">@b9na 🎸</p>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+  </html>
