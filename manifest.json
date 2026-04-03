@@ -6,6 +6,7 @@
   "permissions": ["activeTab", "storage", "scripting"],
   "host_permissions": ["*://leaked.cx/*"],
   "icons": {
+    "64": "src/icon.png",
     "128": "src/icon.png"
   },
   "action": {
