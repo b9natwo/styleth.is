@@ -1,3 +1,3 @@
 chrome.runtime.onInstalled.addListener(() => {
-  console.log('StyleTh.is installed.');
+  console.log('styleth.is');
 });
