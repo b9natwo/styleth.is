@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const status = document.getElementById('status');
     status.textContent = '✓ Saved & Applied';
-    setTimeout(() => status.textContent = '', 1400);
+    setTimeout(() => status.textContent = '@b9na 🎸', 1400);
   }
 
   grid.addEventListener('change', (e) => {
