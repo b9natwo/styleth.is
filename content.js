@@ -1,5 +1,3 @@
-// content.js
-
 class MainClass {
   constructor() {
     this.myUsername = null;
