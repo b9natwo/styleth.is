@@ -1,5 +1,5 @@
 # styleth.is
-Customize your profile with unique styles, banners, and more.
+An extension that allows to freely customize your profile with unique styles, banners, and more.
 
 ### Installation
 1. [Install](https://chromewebstore.google.com/detail/stylethis/phjbfchejcaajknjccpnhndabmhbnohd?hl=en-US&utm_source=ext_sidebar) or clone this repository
@@ -9,4 +9,6 @@ Customize your profile with unique styles, banners, and more.
 5. The extension is now active on leaked.cx
 
 ### Privacy Policy
-Read [here.](https://gist.github.com/b9natwo/d987def648556bd3445d5bc46866c2e9)
+  Read [here.](https://gist.github.com/b9natwo/d987def648556bd3445d5bc46866c2e9)
+
+whole project took about a week, i plan on adding a few more additions 🫂
